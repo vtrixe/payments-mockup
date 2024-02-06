@@ -69,7 +69,7 @@ const SendMoneyPage: React.FC = () => {
         };
     
         try {
-          const response = await fetch('http://localhost:3000/api/send', {
+          const response = await fetch('https://payments-mockup.vercel.app/api/send', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
